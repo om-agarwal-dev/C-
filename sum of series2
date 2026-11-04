@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+int main()
+{
+    double n, sum = 0;
+    cin >> n;
+    for (int i = 1; i <= n; i++)
+    {
+        sum = sum + 1 / pow(i,2);
+    }
+    cout << sum;
+    return 0;
+}
