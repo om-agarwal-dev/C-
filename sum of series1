@@ -1,1 +1,14 @@
-#include 
+#include <bits/stdc++.h>
+
+using namespace std;
+int main()
+{
+    int n, sum = 0;
+    cin >> n;
+    for (int i = 1; i <= n; n++)
+    {
+        sum = sum + 1 / sqrt(i);
+    }
+    cout << sum;
+    return 0;
+}
